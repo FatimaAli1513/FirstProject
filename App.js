@@ -10,11 +10,12 @@ const App = () => {
   return (
     <View>
       <SignUp/>
+      <TextInput title="Name" placeholder="Enter Your Name"/>
+      <TextInput title="Email" placeholder="example@.com"/>
+      <TextInput title="Password" placeholder="**************"/>
     </View>
     // <View>
-    //   <TextInput title="Name" placeholder="Enter Your Name"/>
-    //   <TextInput title="Email" placeholder="example@.com"/>
-    //   <TextInput title="Password" placeholder="**************"/>
+     
     // </View>
   );
 }
